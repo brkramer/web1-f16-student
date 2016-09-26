@@ -1,25 +1,35 @@
 body {
-	font-family: Georgia;
-	margin-left: 4em;
+	font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;	
+	margin-left: 10em;
 	margin-top: 4em;
 }
 h1 {
-	font-size: 3em;
+	font-size: 3.3em;
+	color: rgb(160,76,19);
 }
 h2 {
 	font-size: 2.2em;
+	color: rgb(160,76,19);
 }
 h3 {
-	font-size: 2.8em;
-	font-weight: normal;
+	font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
+	font-size: 2.2em;
+	font-weight: lighter;
+	color: rgb(160,76,19);
 }
 p {
-	font-size: 1.2em;
+	font-family: "Gill Sans","Gill Sans MT",Calibri,sans-serif;
+	font-size: 18px;
 	line-height: 1.6;
 	margin-bottom: 1.5em;
-	max-width: 40em;
+	max-width: 800px;
 }
-
+table {
+	font-family: "Gill Sans","Gill Sans MT",Calibri,sans-serif;
+	font-size: 18px;
+	width: 800px;
+	background-color: rgb(255,243,194);
+}
 code {
 	font-family: monospace;
 	font-size: 0.8em;
