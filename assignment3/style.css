@@ -50,7 +50,7 @@ figure {
 	margin-bottom: 2px;
 	height: 250px;
 }
-a:hover {
+figure:hover a {
 	opacity: 0.3;
 
 }
