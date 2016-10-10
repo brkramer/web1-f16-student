@@ -1,22 +1,26 @@
+@import 'https://fonts.googleapis.com/css?family=Slabo+27px';
+
+
 body {
-	font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;	
+	font-family: "slabo 27px";	
 	margin-left: 0em;
 	margin-top: 0em;
 	margin-bottom: 4em;
 }
 h1 {
-	font-size: 3.3em;
+	font-size: 3.5em;
 	color: rgb(160,76,19);
-	margin-left: 120px;
+	margin-left: 1em;
 }
 h2 {
 	font-size: 2.2em;
 	color: rgb(160,76,19);
 	margin-left: 120px;
+	margin-bottom: .3em;
 }
 h3 {
-	font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
-	font-size: 2.2em;
+	font-family: "slabo 27px";
+	font-size: 1.5em;
 	font-weight: lighter;
 	color: rgb(160,76,19);
 	margin-left: 175px;
@@ -25,9 +29,13 @@ p {
 	font-family: "Gill Sans","Gill Sans MT",Calibri,sans-serif;
 	font-size: 18px;
 	line-height: 1.6;
-	margin-bottom: 1.5em;
+	margin-bottom: 2em;
 	max-width: 800px;
 	margin-left: 175px;
+	margin-top: 0;
+}
+p.schedules {
+	margin-left: 182px;
 }
 table {
 	font-family: "Gill Sans","Gill Sans MT",Calibri,sans-serif;
@@ -42,6 +50,7 @@ table {
 }
 th {
 	background-color: rgb(206,137,91);
+	color: white;
 }
 td {
 	background-color: rgb(255,243,194);
@@ -65,4 +74,18 @@ a, a:visited {
 nav a:hover {
 	color: rgb(160,76,19);
 	text-weight: bold;
+}
+#selected {
+	background-color: rgb(160,76,19);
+	color: white;
+	padding: .2em;
+}
+#title {
+	color: rgb(160,76,19);
+}
+hr {
+	display: none;
+}
+#admission {
+	margin-bottom: .3em;
 }
