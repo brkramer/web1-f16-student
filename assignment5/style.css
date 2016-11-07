@@ -1,0 +1,175 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+@import url('https://fonts.googleapis.com/css?family=Dynalight');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+
+
+/* basic elements */
+html {
+	margin-left: 30px;
+	padding: 0;
+}
+body { 
+	font: 85% "josefin sans", sans-serif;
+	line-height: 1.88889;
+	color: #555753; 
+	background: #fff; 
+	margin: 0; 
+	padding: 0;
+	}
+p { 
+	margin-top: 0; 
+	text-align: justify;
+	}
+h1 { 
+	font-family: Dynalight;
+	font-size: 13em;
+	margin-top: -80px;
+	margin-left: -370px;
+	display: block;
+	white-space: nowrap;
+	width: 80%;
+}
+h2 { 
+	margin-top: -250px; 
+	margin-bottom: 60px; 
+	}
+h3 { 
+	font-weight: bold;
+	font-size: 1.6em;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: lightblue;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	}
+abbr {
+	border-bottom: none;
+	}
+a.design-name {
+	text-decoration: underline;
+	color: black;
+}
+a.designer-name {
+	color: lightgrey;
+}
+
+
+/* specific divs */
+.page-wrapper { 
+	padding: 0 195px 0 20px;  
+	margin: 0; 
+	position: relative;
+	}
+
+.intro { 
+	min-width: 470px;
+	width: 100%;
+	}
+
+header {
+	padding-top: 0px;
+}
+
+.summary {
+	clear: both; 
+	margin: 0px 20px 20px 10px; 
+	width: 220px; 
+	float: left;
+	}
+.summary p {
+	font-size: 1.3em;
+	font-weight: bold; 
+	text-align: left;
+	color: lightgrey;
+	}
+
+.preamble {
+	clear: right; 
+	padding: 0px 10px 0 10px;
+	}
+.supporting {	
+	padding-left: 10px; 
+	margin-bottom: 40px;
+	}
+
+footer { 
+	text-align: center; 
+	}
+footer a:link, footer a:visited { 
+	margin-right: 20px; 
+	}
+
+.sidebar {
+	margin-left: 600px; 
+	position: fixed; 
+	top: 0; 
+	right: 0;
+}
+.sidebar .wrapper { 
+	background: ;
+	font-size: 12px; 
+	padding: 10px; 
+	padding-top: 70px;
+	margin-top: -10px; 
+	width: 150px; 
+	height: 800px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: lightgrey;
+	}
+.sidebar h3.select { 
+	color: black;
+	margin: 10px 0 5px 0; 
+	white-space: nowrap;
+}
+.sidebar h3.archives { 
+	color: black;
+	margin: 25px 0 5px 0; 
+	white-space: nowrap;
+	overflow: hidden;
+	}
+.sidebar h3.resources { 
+	color: black;
+	margin: 25px 0 5px 0; 
+	white-space: nowrap;
+	overflow: hidden;
+	}
+
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	}
+.sidebar li {
+	line-height: 1.3em; 
+	background: ; 
+	display: block; 
+	padding-top: 5px; 
+	margin-bottom: 5px;
+	list-style-type: none;
+	}
+.sidebar li a:link {
+	color: black;
+	}
+.sidebar li a:link.designer-name {
+	color: lightgrey;
+	}
+.sidebar li a:link.designer-name:hover {
+	color: lightblue;
+	}
