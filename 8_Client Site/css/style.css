@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Croissant+One|Ultra');
+
+/*////////////////////////////
+/
+/
+/
+/   General, whole page
+/
+/
+/
+////////////////////////////*/
+body{
+	font-family:"raleway";
+	background:rgb(239,225,206);
+	margin-top:120px;
+	margin-left:0;
+	font-weight:300;
+	font-size: 1em;
+	margin-bottom:50px
+}
+h1 {
+	display:none;
+}
+h2 {
+	font-family:'alfa slab one';
+	color: white;
+	font-size: 1.5em;
+	margin-top:30px;
+}
+h3 {
+	font-family:"raleway";
+	font-weight:600;
+	font-style:italic;
+	color:rgb(150,150,150);
+	margin:0;
+	padding: 15px 15px 8px 15px;
+}
+h4 {
+	font-family:"raleway";
+	font-weight:600;
+	color:rgb(117,161,191);
+	margin:0;
+	padding: 0px 15px 8px 15px;
+}
+ul {
+	decoration: none;
+	list-style: none;
+	margin:0;
+	padding-left:15px;
+}
+ul a {
+	text-decoration: none;
+}
+p {
+	max-width: 800px;
+}
+article {
+	background:white;
+	max-width: 800px;
+	margin-left:10%;
+	margin-right:10%;
+	height: 248px;
+	overflow: hidden;
+}
+article > p {
+	padding: 5px 15px 15px 15px;
+}
+a > p {
+	text-align:center;
+	background:rgb(117,161,191);
+	margin-top:0;
+	margin-bottom:40px;
+	padding: 5px 0px 5px 0px;
+	margin-left:10%;
+	margin-right:10%;
+}
+article+a {
+	color:white;
+}
+article+p:hover a {
+	color:white;
+	font-weight: 600;
+}
+img.process {
+	background:white;
+	margin-bottom:40px;
+	margin-right:10px;
+	width:400px;
+	float:left;
+}
+img {
+	margin-bottom:10px;
+	margin-right:10px;
+	width:400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*////////////////////////////
+/
+/
+/
+/   Nav
+/
+/
+/
+////////////////////////////*/
+nav {
+	width:100%;
+	text-align:center;
+	margin:0;
+	padding-top:18px;
+	background:white;
+	height:3.7em;
+	position:fixed;
+	top:0;
+}
+nav * li {
+	display:inline;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown, #home {
+	margin-left:4%;
+	margin-right:4%;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 5px 5px 5px 5px;
+	margin-left:-20px;
+	margin-top:2.8px;
+	text-align:left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+span:hover, #home:hover {
+	border-bottom:3px solid rgb(117,161,191);
+}
+#home > a:hover {
+	color:black;
+	font-weight:300;
+}
+.dropdown:hover span {
+	border-bottom:3px solid rgb(117,161,191);
+}
+ul.dropdown-content > li {
+	display: block;
+	padding: 8px;
+	text-transform: capitalize;
+}
+ul.dropdown-content > li:hover {
+	background-color: rgb(150,150,150);
+	font-weight: 600;
+}
+.dropdown-content > li:hover a {
+	color: white;
+	font-weight:600;
+}
+nav > ul {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:31px;
+}
+#rhamfps {
+	width:130px;
+	position:fixed;
+	left:0;
+	top:0px;
+}
+img.widgets {
+	width:28px;
+	display:block;
+	margin-bottom:3px;
+}
+img#facebook {
+	width:35px;
+}
+img#twitter {
+	width:25px;
+}
+.social {
+	margin-top:7px;
+	float:left;
+	position:fixed;
+	right:0px;
+	top:230px;
+}
+
+
+
+
+/*////////////////////////////
+/
+/
+/
+/   components
+/
+/
+/
+////////////////////////////*/
+a {
+	color:black;
+	text-decoration:none;
+}
+a:hover {
+	color:white;
+	font-weight: 600;
+}
+a.visited {
+	color:black;
+}
+hr {
+	background-color:rgb(239,225,206);
+	height:1.5px;
+	border:0;
+	margin-left:15px;
+	margin-right:15px;
+}
+.current {
+	border-bottom:3px solid rgb(117,161,191);
+}
+.current2 > a {
+	font-weight: 600;
+	color:white;
+}
+.overview {
+	border: 2px solid white;
+	margin-bottom:40px;
+}
+.overviewspecial {
+	border: 2px solid white;
+	margin-bottom:40px;
+	margin-top:100px;
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.overviewspecial > p {
+	padding-left:15px;
+	padding-right:15px;
+}
+.overviewspecial > h2 {
+	padding-left:15px;
+	padding-right:15px;
+}
+.topic {
+	margin-left:10%;
+	margin-right:10%;
+	max-width: 800px;
+	margin-bottom:40px;
+}
+.header {
+	margin-left:10%;
+	margin-right:10%;
+	max-width: 800px;
+}
+.overview > p {
+	padding-left:15px;
+	padding-right:15px;
+}
+.research {
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:20px;
+	text-align:center;
+}
+.research > li {
+	margin-right:15px;
+	display:inline;
+}
+article.video {
+	height:300%;
+	max-width:800px;
+	margin-bottom:40px;
+	}
+.blurb {
+	background:white;
+	text-align:left;
+	margin-top:0;
+	margin-bottom:0px;
+}
+.blurb > p {
+	padding:0px 15px 5px 15px;
+}
+iframe {
+	width:100%;
+	align:center;
+	margin-top:0;
+	margin-bottom:0;
+}
+.video > iframe {
+	margin-top:5px;
+}
+iframe#calendar {
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom:0;
+}
+iframe#drive {
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+}
+.photos {
+	margin-left:10%;
+	margin-right:10%;
+}
+p > a {
+	color:rgb(117,161,191);
+	weight:300;
+}
+article+p > a {
+	color:white;
+}
+h3+p {
+	display:block;
+}
+.past_topics {
+	border: 2px solid white;
+	margin-bottom:40px;
+	margin-left:auto;
+	margin-right:auto;
+	width:265px;
+}
+.tiledtopics {
+	margin-left:10%;
+	margin-right:10%;
+}
+.steps {
+	background:white;
+	max-width: 412px;
+	margin-left:10%;
+	margin-right:10%;
+	padding: 5px;
+}
+img+ .overview {
+	max-width:800px;
+}
+.collagebig {
+	width:101.2%;
+	margin:0px;
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+}
+.collagebig:hover {
+
+}
+.collagesmall {
+	width:10.37%;
+	margin:0px;
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+}
+.collagemed {
+	width:13.5%;
+	margin:0;
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+/*////////////////////////////
+/
+/
+/
+/   Responsive breakpoints
+/   mobile-first responsive breakpoints
+/
+/
+/
+////////////////////////////*/
+@media screen and (min-width: 710px){
+	
+	.past_topics {
+		float:left;
+		margin-right:10px;
+	}
+}
+
+/*////////////////////////////
+/
+/
+/
+/   Responsive breakpoints
+/   mobile-first responsive breakpoints
+/
+/
+/
+////////////////////////////*/
+@media screen and (min-width: 670px) {
+	
+.steps {
+	margin-left:auto;
+	margin-right:auto;	
+}
+#rhamfps {
+	visibility:visible;
+}
+
+}
+/*////////////////////////////
+/
+/
+/
+/   Responsive breakpoints
+/   mobile-first responsive breakpoints
+/
+/
+/
+////////////////////////////*/
+@media screen and (min-width: 800px) {
+br {
+	display:none;
+}
+
+
+}
+
+	
+	
+/*////////////////////////////
+/
+/
+/
+/   Responsive breakpoints
+/   mobile-first responsive breakpoints
+/
+/
+/
+////////////////////////////*/
+@media screen and (min-width: 1000px) { /* large-screen */
+
+.topic {
+	margin-left:auto;
+	margin-right:auto;
+}
+p {
+	margin-left:auto;
+	margin-right:auto;
+}
+article {
+	margin-left:auto;
+	margin-right:auto;
+}
+article+p{
+	margin-left:auto;
+	margin-right:auto;
+}
+.blurb {
+	margin-left:auto;
+	margin-right:auto;
+	width:800px;
+}
+.blurb > p {
+	margin-left:auto;
+	margin-right:auto;
+}
+img.about {
+	float:left;
+}
+img+ .overview {
+	min-height:397px;
+	margin-left:410px;
+}
+
+}
