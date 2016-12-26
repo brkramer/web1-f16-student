@@ -194,7 +194,8 @@ nav > ul {
 	width:130px;
 	position:fixed;
 	left:0;
-	top:0px;
+	top:33px;
+	display:none;
 }
 img.widgets {
 	width:28px;
@@ -213,6 +214,7 @@ img#twitter {
 	position:fixed;
 	right:0px;
 	top:230px;
+	display:none;
 }
 
 
@@ -423,6 +425,12 @@ img+ .overview {
 		float:left;
 		margin-right:10px;
 	}
+	.social {
+		display:block;
+	}
+	#rhamfps {
+		display:block;
+	}
 }
 
 /*////////////////////////////
@@ -491,6 +499,10 @@ article {
 	margin-right:auto;
 }
 article+p{
+	margin-left:auto;
+	margin-right:auto;
+}
+a > p {
 	margin-left:auto;
 	margin-right:auto;
 }
