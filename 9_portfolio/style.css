@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700|Roboto:700');
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 /*////////////////////////////
 /
 /
@@ -8,16 +11,24 @@
 /
 ////////////////////////////*/
 h1 {
-	margin-left:40px;
+	margin-left:76px;
+	margin-top:30px;
+	margin-bottom:25px;
+	color:white;
+	font-family:'amatic sc';
+	font-size:70px;
 }
-a, a:visited {
+a {
 	text-decoration:none;
-	color:blue;
+	color:black;
 }
 ul {
 	list-style:none;
 }
-
+body {
+	background-color:black;
+	font-family:'pt sans narrow';
+}
 
 
 
@@ -49,21 +60,28 @@ ul {
 	padding-bottom:60em;
 	margin-top:-2em;
 	margin-left:-1em;
-	background-color:pink;
+	background-color:black;
 	position:fixed;
 	padding-right:20px;
 }
 .sidebar p {
-	padding-left:40px;
+	padding-left:80px;
 	padding-right:40px;
+	color:white;
 }
 .sidebar ul {
 	padding-right:40px;
 	padding-left:80px;
+	color:white;
+	list-style-type:square;
+}
+.sidebar a {
+	color:blue;
 }
 .work {
 	margin-left:20.5em;
-	background-color:black;
+	margin-right:-1em;
+	margin-bottom:-5em;
 }
 nav {
 	margin-left:30em;
@@ -73,6 +91,18 @@ nav li {
 	display:inline;
 	margin-right:8em;
 }
+nav a {
+	color:white;
+	font-family:'pt sans narrow';
+	font-size:18px;
+	opacity:0.5;
+}
+nav a:hover {
+	opacity:1;
+}
+a.current {
+	opacity:1;
+}
  .work img {
 	margin-bottom:-1em;
 }
@@ -80,10 +110,11 @@ figure img {
 	height:11em;
 }
 figcaption {
-	margin-top:-6em;
-	margin-bottom:5.9em;
-	margin-left:18em;
+	margin-top:-3.8em;
+	margin-bottom:3.2em;
 	visibility:hidden;
+	font-family: 'pt sans narrow';
+	font-size:25px;
 }
 figure:hover figcaption {
 	visibility:visible;
@@ -98,14 +129,63 @@ figure > a {
 	width:15em;
 	margin-left:5em;
 }
-
-
-
-
-
-
-
-
+#bdw {
+	margin-left:9.5em;
+}
+#education {
+	margin-left:9em;
+}
+#calling {
+	margin-left:10em;
+}
+#infograph {
+	margin-left:7.6em;
+}
+#redesign {
+	margin-left:10em;
+}
+#relay {
+	margin-left:11em;
+}
+#ocean {
+	margin-left:11.3em;
+}
+#editorial {
+	margin-left:10em;
+}
+#amtrak {
+	margin-left:7.8em;
+}
+#book {
+	margin-left:11em;
+}
+#recipes {
+	margin-left:11.5em;
+}
+#allure {
+	margin-left:9em;
+}
+#me {
+	margin-bottom:25px;
+}
+#thoughts {
+	margin-left:11em;
+}
+#fish {
+	margin-left:13em;
+}
+#letterpress {
+	margin-left:12.5em;
+}
+#resin {
+	margin-left:14em;
+}
+#letterforms {
+	margin-left:13em;
+}
+#combining {
+	margin-left:12em;
+}
 
 
 
