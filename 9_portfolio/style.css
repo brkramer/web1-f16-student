@@ -8,12 +8,15 @@
 /
 ////////////////////////////*/
 h1 {
-	/* CHANGE ME! */
-	color: white;
-	background-color: purple;
+	margin-left:40px;
 }
-
-
+a, a:visited {
+	text-decoration:none;
+	color:blue;
+}
+ul {
+	list-style:none;
+}
 
 
 
@@ -40,13 +43,61 @@ h1 {
 /
 /
 ////////////////////////////*/
-.highlight {
-	background-color: yellow;
+.sidebar {
+	float:left;
+	width:25em;
+	padding-bottom:60em;
+	margin-top:-2em;
+	margin-left:-1em;
+	background-color:pink;
+	position:fixed;
+	padding-right:20px;
 }
-
-
-
-
+.sidebar p {
+	padding-left:40px;
+	padding-right:40px;
+}
+.sidebar ul {
+	padding-right:40px;
+	padding-left:80px;
+}
+.work {
+	margin-left:20.5em;
+	background-color:black;
+}
+nav {
+	margin-left:30em;
+	margin-top:2em;
+}
+nav li {
+	display:inline;
+	margin-right:8em;
+}
+ .work img {
+	margin-bottom:-1em;
+}
+figure img {
+	height:11em;
+}
+figcaption {
+	margin-top:-6em;
+	margin-bottom:5.9em;
+	margin-left:18em;
+	visibility:hidden;
+}
+figure:hover figcaption {
+	visibility:visible;
+}
+figure:hover img {
+	opacity:0.5;
+}
+figure > a {
+	color:white;
+}
+#me {
+	width:15em;
+	margin-left:5em;
+}
 
 
 
@@ -72,9 +123,6 @@ h1 {
 ////////////////////////////*/
 @media screen and (min-width: 33em) { /* large-screen */
 	h1 {
-		/* CHANGE ME!
-		   Change your browser window size to see how I behave */
-		color: pink;
-		background-color: black;
+
 	}
 }
